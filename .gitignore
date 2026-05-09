@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+examples/node_modules/
+
+# Hardhat build outputs
+cache/
+artifacts/
+examples/cache/
+examples/artifacts/
+
+# TypeChain
+typechain-types/
+examples/typechain-types/
+
+# Environment — never commit private keys
+.env
+examples/.env
+
+# OS
+.DS_Store
+Thumbs.db
