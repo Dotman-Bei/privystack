@@ -104,10 +104,23 @@ npm install
 
 ### 5. Write a confidential smart contract
 
+> **Before this step:** Make sure Step 4 is complete and `npm install` has finished.
+> Your project must have `hardhat.config.ts`, `package.json`, and the `contracts/` folder in place
+> before writing contracts or running tests. If you skip Step 4, `npx hardhat` commands will fail
+> with "No Hardhat config file found."
+>
+> **Want to skip setup and run working tests immediately?** The `examples/` folder in PrivyStack
+> is a fully configured project. Run this from the PrivyStack directory:
+> ```bash
+> cd examples
+> npm install
+> npx hardhat compile
+> npx hardhat test
+> ```
+
 Prompt your agent:
 
-```
-Write me a confidential voting contract using FHEVM.
+> Write me a confidential voting contract using FHEVM.
 Votes must be encrypted. Only the final tally should be revealed after voting ends.
 ```
 
