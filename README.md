@@ -82,12 +82,10 @@ Claude Code reads `CLAUDE.md` on every startup. Cursor and Windsurf read their r
 
 ### 4. Initialize a Hardhat project
 
-Open your agent and prompt:
+Open your agent's chat (Claude Code, Cursor, or Windsurf) and type this message:
 
-```
-Read SKILL.md. Then set up a Hardhat TypeScript project for FHEVM development.
-Install all required dependencies and create hardhat.config.ts with the correct settings.
-```
+> Read SKILL.md. Then set up a Hardhat TypeScript project for FHEVM development.
+> Install all required dependencies and create hardhat.config.ts with the correct settings.
 
 The agent will read the skill, load `skills/fhevm-testing.md`, and generate:
 
